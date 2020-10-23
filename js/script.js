@@ -27,8 +27,6 @@ async function fetchTeams() {
             const teamName = teams[i].full_name;
             const city = teams[i].city;
 
-            // startsWith documentation: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/startsWith
-
             // we are checking for small "c" and big "C"
             if (teamName.startsWith("c") || teamName.startsWith("C")) {
                 // i = i - 1;
