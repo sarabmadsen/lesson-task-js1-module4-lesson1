@@ -13,27 +13,25 @@ h1 {
     margin-left: 1rem;
 }
 
+h4 {
+    margin-bottom: 0.2em;
+}
+
+p {
+    margin-top: 0;
+}
+
 .container {
     max-width: 1100px;
     margin: 0 auto;
 }
 
-.results {
-    display: flex;
-    flex-wrap: wrap;
-}
-
 .card {
     margin: 1rem;
-    padding: 1rem;
-    max-width: 200px;
+    padding: 0.1rem 1rem;
     background: white;
     border: 1px solid grey;
     border-radius: 1rem;
-}
-
-.card img {
-    width: 100%;
 }
 
 .success {
