@@ -29,7 +29,6 @@ async function fetchTeams() {
 
             // we are checking for small "c" and big "C"
             if (teamName.startsWith("c") || teamName.startsWith("C")) {
-                // i = i - 1;
                 continue;
             }
 
